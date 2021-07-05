@@ -1,0 +1,133 @@
+/**@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  border: 1px solid black;
+  background-color: rgb(168, 103, 103);
+  padding-top: 100px;
+  border-bottom: 1px solid #464040;
+  color:rgb(107, 56, 56)
+}
+.nav2 {
+  padding: 20px;
+  border: 1px solid black;
+  background-color: rgb(247, 248, 248);
+  padding-top: 100px;
+  border-bottom: 1px solid #464040;
+  color:rgb(107, 56, 56)
+}
+.nav2 h1 {
+   color:black;
+   text-align: center;
+   font-size: 100px;
+}
+.navbar h1 {
+  color: white;
+  font-size: 100px;
+}
+.button {
+  background-color: #fafcfa; 
+  border: 5px solid #050505; 
+  color: rgb(14, 13, 13);
+  border-radius: 12px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {width: 50px;}
+.navbar .links {
+  margin-left: auto;
+}
+
+.footer {
+  padding: 30px;
+  background-color: #eaeff5;
+}
+.row{
+  margin-left: 8%;
+  margin-right: 8%;
+  display:flex;
+  position: static;
+  overflow: visible;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+.white-box {
+  flex-grow:1;
+  max-width: fit-content;
+  float: left;
+  padding: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dcebf7;
+  border-radius: 5px;
+  text-align: center;
+}
+.sectionSubHead{
+  color: #8e8e9c;
+  font-size: 100px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.footer-link{
+  display: inline-block;
+   font-size: 30px;
+   font-family: fantasy;
+   position: relative;
+   overflow: visible;
+   color: #727272;
+   text-align: left;
+   text-decoration: underline;
+}
+.footer2{
+  font-size: 50px;
+  color: #9e9e9ee1;
+  background-color: #383838;
+  padding:18px;
+  text-align: center;
+}
+.para{
+  color: #6a859c;
+  font-size: 20px;
+  display: inline-block;
+  text-align: center;
+  
+}
+.motive{
+  color: lightslategray;
+  text-align: center;
+  font-size: 250px;
+  text-decoration: underline;
+}
+.mot{
+  text-align: center;
+  color: black;
+  font-size: 200px;
+  border: 1px solid #000000;
+  background-color: darkgray;
+}
+.ab{padding: 150px;}
+.ab h1 {
+  color: #0c0c0c;
+  font-size: 80px;
+}
+.pro{
+  border: 1px solid #db9797;
+  font-size: 50px;
+  text-align: center;
+}
+*/
