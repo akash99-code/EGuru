@@ -26,13 +26,21 @@ while facilitating effortless management of e-courses and participants.
 **peek into Eguru's secured registration and authentication process**  
 
 <img src='/images/reg1.png' title='fill details'/><img src='/images/reg2.png' title='on sumbit'/>  
-*Account activation link, which is valid for 10 minutes, is mailed to user’ mailID*
-<img src='/images/reg3.png' width=600 title='in user's mail box'/>    
+*Account activation link, which is valid for 10 minutes, is mailed to user’ mail-ID*  
+
+<img src='images/reg3.png' width=600 title="in user's mailbox" />   
+
 *Mailed link directs to Activation Page –*  
-<img src='/images/reg4.png' 'registraction successful'/>
+<img src='/images/reg4.png' title='registraction successful'/>
 
 ---
-**internal mechanism behind the above process**
+**internal mechanism behind the above process**  
+
+<img src='/images/Regworkflow.PNG' title='registraction successful'/>
+
+---
+**This project has not been deployed yet.**
+
 
 
 
