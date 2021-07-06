@@ -5,7 +5,7 @@ while facilitating effortless management of e-courses and participants.
 
 ---
 
-. **home page**
+. **Home page**
 <img src='/images/home.PNG' title='home page'/>
 
 ---
@@ -22,8 +22,12 @@ while facilitating effortless management of e-courses and participants.
 * Backend - NodeJs [ExpressJS server fraamework]
 * Database Tier - MongoDB [hosted at MongoDB Atlas]
 
+
+[See full documentation of EGuru.](https://github.com/akash99-code/EGuru/blob/master/EGuru%20Docs.pdf)
+
 ---
-**peek into Eguru's secured registration and authentication process**  
+
+**Peek into Eguru's secured registration and authentication process**  
 
 <img src='/images/reg1.png' title='fill details'/><img src='/images/reg2.png' title='on sumbit'/>  
 *Account activation link, which is valid for 10 minutes, is mailed to user’ mail-ID*  
@@ -33,13 +37,70 @@ while facilitating effortless management of e-courses and participants.
 *Mailed link directs to Activation Page –*  
 <img src='/images/reg4.png' title='registraction successful'/>
 
----
-**internal mechanism behind the above process**  
+[Get all the snapshots of the project here.](https://github.com/akash99-code/EGuru/blob/master/EGuru%20Docs.pdf)
 
+---
+
+**Internal mechanism behind the above process**  
+  
+  
 <img src='/images/Regworkflow.PNG' title='registraction successful'/>
 
 ---
-**This project has not been deployed yet.**
+
+**Mongoose schema utilized during the above process**
+
+const userSchema=new mongoose.Schema(
+    {
+        email:{
+            type:String,
+            trim:true,
+            required:true,
+            unique:true,
+            lowercase:true
+        },
+        name:{
+            type:String,
+            trim:true,
+            required:true
+        },
+        hashed_password:{
+            type:String,
+            required:true
+        },
+        salt:String,
+        role:{
+            type:String,
+            default:'Normal'
+        },
+        resetPasswordLink:{
+            type:String,
+            default:''
+        },
+        pageId:{
+            type:String,
+            default:''
+        },
+    },
+    {
+        collection: 'teacherAuth'
+    },
+    {
+        timeStamp:true
+    }
+);
+
+
+[Find out other database schemas utilized by EGuru.](https://github.com/akash99-code/EGuru/blob/master/EGuru%20Docs.pdf)
+
+---
+
+EGuru was completed for the submission of Final Year UG-Project, under a time-span of 2 months.  
+Contributors- 
+* [Narendra Kumar Reddy](https://github.com/NarendraPolimera)
+* [Akash Bairagi](https://github.com/akash99-code/)
+      
+*This project has not been deployed on internet yet.*
 
 
 
