@@ -35,7 +35,7 @@ while facilitating effortless management of e-courses and participants.
 <img src='images/reg3.png' width=600 title="in user's mailbox" />   
 
 *Mailed link directs to Activation Page –*  
-<img src='/images/reg4.png' title='registraction successful'/>
+<img src='/images/reg4.png' title='registration successful'/>
 
 [Get all the snapshots of the project here.](https://github.com/akash99-code/EGuru/blob/master/EGuru%20Docs.pdf)
 
@@ -44,7 +44,7 @@ while facilitating effortless management of e-courses and participants.
 **Internal mechanism behind the above process**  
   
   
-<img src='/images/Regworkflow.PNG' title='registraction successful'/>
+<img src='/images/Regworkflow.PNG' title='registration workflow'/>
 
 ---
 
